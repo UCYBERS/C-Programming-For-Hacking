@@ -14,8 +14,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    int num1,num2,num3;
+int main()
+{
+    int num1,num2,num3,smallest,largest;
 
     printf("Input three different integers: ");
     scanf("%d%d%d",&num1,&num2,&num3);
@@ -26,34 +27,25 @@ int main() {
 
     printf("Product is %d\n",num1*num2*num3);
 
-    if(num1<num2){
-      if(num1<num3){
-        printf("Smallest is %d\n",num1);
-     }
+    smallest=num1;
+
+    if(num2<smallest){
+        smallest=num2;
     }
-    if(num2<num1){
-      if(num2<num3){
-        printf("Smallest is %d\n",num2);
-     }
+    if(num3<smallest){
+        smallest=num3;
     }
-     if(num3<num1){
-       if(num3<num2){
-         printf("Smallest is %d\n",num3);
-     }
+    printf("Smallest is %d\n",smallest);
+
+    largest=num1;
+
+    if(num2>largest){
+        largest=num2;
     }
-     if(num1>num2){
-       if(num1>num3){
-         printf("Largest is %d\n",num1);
-     }
+    if(num3>largest){
+        largest=num3;
     }
-    if(num2>num1){
-      if(num2>num3){
-        printf("Largest is %d\n",num2);
-     }
-    }
-     if(num3>num1){
-       if(num3>num2){
-         printf("Largest is %d\n",num3);
-     }
-    }
+    printf("Largest is %d\n",largest);
+
+    return 0;
 }
