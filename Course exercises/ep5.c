@@ -1,4 +1,5 @@
 /*
+Write a C program 
 Write a program to read integer number of four digits and find the equivalent number in expanded form
 */
 
