@@ -1,5 +1,5 @@
 /*
-a program that read the total time in
+a c program that read the total time in
 second and find and print the time in
  hours: mints: seconds format
 
