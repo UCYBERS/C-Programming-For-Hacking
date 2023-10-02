@@ -1,3 +1,8 @@
+# Data Types In C Programming
+
+## Data Type: int | float | char | string
+
+```c
 #include <stdio.h>
 
 int main()
@@ -23,3 +28,28 @@ int main()
   printf("%c\n",name[10]);
   printf("%c\n",name[11]);
     return 0;
+}
+```
+
+**Output**
+
+```
+Hello world!
+the value of a is 10.73
+the value of b is 15.7
+D
+My name is Dark UCYBERS
+D
+a
+r
+k
+
+U
+C
+Y
+B
+E
+R
+S
+```
+---
