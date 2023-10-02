@@ -1,5 +1,5 @@
 /*
-Write a program to ask the user to enter one character either c or r or t 
+Write a C program to ask the user to enter one character either c or r or t 
 R for rectangle 
 T for right triangle 
 C for circle 
