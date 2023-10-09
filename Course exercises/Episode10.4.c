@@ -1,5 +1,5 @@
 /*
-Write a program that defines an array of 7 characters (string). You need to prompt the user to
+Write a C program that defines an array of 7 characters (string). You need to prompt the user to
 read the string entered then compute how many vowels in that string. You should use switch statement
 */
 #include <stdio.h>
