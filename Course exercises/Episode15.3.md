@@ -5,6 +5,7 @@ In the C programming language, the use of the function abs in C is to return the
 By absolute value, it means the function returns the positive value of an integer. Let's say we have an int value -3, and we want to know what the absolute value of -3 is. So we will use the absolute function and return the absolute value of -3, which is 3.
 
 Let's have a look at the syntax of abs() function :
+
 **Syntax** :
 
 ```c
