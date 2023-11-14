@@ -1,5 +1,8 @@
 /*
-CircularShiftDown : a two dimensional integer array A, an integer n represents number of rows n, and integer number m. Assume number of columns is 4. the program should shift the array rows down m times. Each shift operation makes the first row becomes second row, second row becomes third row and so on, the last row becomes the first row in the array Example: if n = 6,
+in C prorgram write CircularShiftDown : a two dimensional integer array A, an integer n represents number of rows n, 
+and integer number m. Assume number of columns is 4. the program should shift the array rows down m times. 
+Each shift operation makes the first row becomes second row, second row becomes third row and so on, 
+the last row becomes the first row in the array Example: if n = 6,
 Example Array A before Shift
 1 1 1 1
 2 2 2 2
