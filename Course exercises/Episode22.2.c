@@ -1,5 +1,5 @@
 /*
-Write a program that prints the shape of a square of N x N using dots(.) , digit( 1 ) and digit ( 2 ) 
+Write a C program that prints the shape of a square of N x N using dots(.) , digit( 1 ) and digit ( 2 ) 
 for the given input N. Both diagonals of the square will be represented by dots. 
 The dots of the diagonals will separate the square into 4 triangles (upper, left, right and lower). 
 Right and upper triangles will be represented by ones, while left and lower will be represented by twos. 
