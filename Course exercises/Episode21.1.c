@@ -1,5 +1,5 @@
 /*
-Write a program to Rotate90Array that define two arrays (A and B) as well as number of rows n, 
+Write a C program to Rotate90Array that define two arrays (A and B) as well as number of rows n, 
 both arrays A and B are of type 2D of size n by n. 
 The program rotates array A 90 degree clock wise and place the result in array B. 
 Use looping to do the rotation process. Number of columns = n
