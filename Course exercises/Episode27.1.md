@@ -61,3 +61,56 @@ sum = 12
  
 
 ---
+## Example: C Recursion Tracing
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#define size 5
+
+int tracing(int n){
+
+    int x;
+    
+    if(n<=2){ x=n; }
+
+        else {
+            printf("before n: %d\n",n);
+            x=tracing(n-1)+n;
+            printf("after x: %d\n",x);
+            return x+n;
+             }
+
+    printf("x = %d\n",x);
+
+    return n;
+}
+
+int main()
+{
+    printf("Result = %d\n",tracing(5));
+    
+    printf("END\n");
+    
+    return 0;
+}
+```
+ 
+**Output**
+```
+before n: 5
+before n: 4
+before n: 3
+x = 2
+after x: 5
+after x: 12
+after x: 21
+Result = 26
+END
+
+
+
+```
+ 
+
+---
