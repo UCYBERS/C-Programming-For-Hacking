@@ -8,7 +8,7 @@ If it’s rectangle read the value of lenght and width
 And if it’s right triangle read The base and the height....
 Area of circle = pi r^2
 Area of triangle =1/2 *b*h
-Area of rectangle =length*wifth
+Area of rectangle =length*width
   */
 #include <stdio.h>
 #include <stdlib.h>
